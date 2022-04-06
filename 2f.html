@@ -1,11 +1,15 @@
 <style>
   a {
     color: rgb(0, 113, 133);
+    transition: color 0.15s;
   }
   .first-p {
     font-weight: bold;
     font-size: 25px;
+  }
 
+  a:hover {
+    color: rgb(117, 51, 6);
   }
 
   .second-p {
@@ -16,18 +20,41 @@
     background-color: rgb(255, 216, 20);
     border: none;
     border-radius: 12.5px;
-    height: 25px;
-    width: 95px;
     margin-right: 7px;
     cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
   }
+
+  .add-button:hover {
+    background-color: rgb(202, 171, 14);
+  }
+
+  .add-button:active {
+    opacity: 0.6;
+  }
+  
   .buy-button {
     background-color: rgb(255, 164, 28);
     border: none;
     border-radius: 12.5px;
-    height: 25px;
-    width: 95px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
     cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .buy-button:hover {
+    background-color: rgb(207, 132, 19);
+  }
+
+  .buy-button:active {
+    opacity: 0.6;
   }
 </style>
 
