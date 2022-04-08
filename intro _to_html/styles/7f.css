@@ -1,0 +1,27 @@
+p {
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(90, 89, 89);
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 390px;
+  height: 25px;
+}
+
+button {
+  margin-top: 20px;
+  width: 400px;
+  background-color: rgb(74, 74, 219);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
