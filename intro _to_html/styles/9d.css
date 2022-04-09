@@ -1,0 +1,21 @@
+div {
+  background-color: black;
+  width: 400px;
+  height: 150px;
+
+}
+
+.name {
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.info { 
+  color: gray;
+  font-family: arial;
+  padding-left: 25px;
+}

@@ -1,0 +1,17 @@
+div {
+  border: solid;
+  border-width: 1px;
+  width: 300px;
+  height: 100px;
+
+}
+
+p {
+  margin-left: 10px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.yes {
+  margin-left: 10px;
+}
