@@ -1,0 +1,55 @@
+
+div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.block {
+  display: block;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.text {
+  width: 200px;
+  font-family: arial;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  line-height: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.surname,
+.popularity {
+  color: rgb(88, 88, 88);
+  font-weight: 500;
+}
+
+button {
+  background-color: rgb(96, 96, 247);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.popularity {
+  font-size: 15px;
+}
+

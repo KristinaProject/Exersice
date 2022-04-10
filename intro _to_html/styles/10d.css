@@ -1,4 +1,4 @@
-div {
+.all {
   width: 200px;
   height: 370px;
   display: inline-block;
@@ -7,6 +7,10 @@ div {
   vertical-align: middle;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
  
+}
+
+.other {
+  vertical-align: middle;
 }
 
 img {
@@ -29,6 +33,8 @@ p {
 
 .friends {
   color: gray;
+  display: inline-block;
+  
 }
 
 button {
@@ -43,7 +49,17 @@ button {
   font-weight: bold;
   border: none;
   border-radius: 10px;
+  font-size: 15px;
 }
 
+.foto {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  vertical-align: middle;
+  object-fit: cover;
+}
 
-
+.foto-friend {
+  margin-left: 15px;
+}
