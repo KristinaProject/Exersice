@@ -1,0 +1,47 @@
+.all {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  font-family: arial;
+  background-color: rgb(77, 0, 128);
+  color: white;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-bottom: 20px;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home {
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+
+
+}
+
+input {
+  
+  border-radius: 20px;
+  margin-left: 70px;
+  margin-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+}
+
+.button {
+  width: 100px;
+  border-color: white;
+  border-width: 1px;
+  border: solid;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin-right: 20px;
+  text-align: center;
+}
