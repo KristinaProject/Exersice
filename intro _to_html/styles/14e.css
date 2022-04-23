@@ -1,0 +1,59 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: arial;
+}
+
+.custumer-picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.two-button {
+  margin-right: 50px;
+}
+
+.add {
+  background-color: rgb(99, 99, 248);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-weight: bolder;
+}
+
+.message {
+  background-color: rgb(224, 221, 221);
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-weight: bolder;
+}
